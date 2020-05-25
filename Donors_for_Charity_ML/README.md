@@ -74,7 +74,11 @@ The modified census dataset consists of approximately 42,000 data points, with e
 
 11. Visualisation- Correlation Matrix
 
+Correlation Matrix of Continuous Features in dataset-
+
 ![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/corelation_cont.PNG)
+
+Correlation Matrix of All Features in dataset-
 
 ![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/corelation_all.PNG)
 
