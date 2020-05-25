@@ -92,6 +92,7 @@ Correlation Matrix of All Features in dataset-
       Logistic Regression
       XGBoost Classifier
 -   Comparison of models based upon ROC-AUC Score Metrics-
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/metrics_calc_All_models.PNG)
 -   Hyperparameter Tuning for AdaBoost Classifier
 -   Hyperparameter Tuning for Gradient Boosting Classifier
 -   Hyperparameter Tuning for XGBoost Classifier
