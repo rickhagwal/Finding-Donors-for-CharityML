@@ -26,7 +26,7 @@ The modified census dataset consists of approximately 42,000 data points, with e
 
 ### Steps taken:
 **1. Importing datasets( 'census.csv' and 'test_census.csv')**
-![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/data.PNG)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/data.PNG)
 
 ![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/test.PNG)
 
