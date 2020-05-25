@@ -26,18 +26,58 @@ The modified census dataset consists of approximately 42,000 data points, with e
 
 ### Steps taken:
 1. Importing datasets( 'census.csv' and 'test_censis.csv')
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/data.PNG)
+
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/test.PNG)
+
 2. Explore datasets.
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/data_info.PNG)
+
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/train_info.PNG)
+
 3. Explore target variable.
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/Data_exploration.PNG)
+
 4. Split dataframe into features and target variable(income)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/Split_data_features.PNG)
+
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/split_data_income.PNG)
+
 5. Explore continuous(skewed and non-skewed) and categorical features in dataset.
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/Unique_val_categorical.PNG)
+
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/cont_categ_features.PNG)
+
 6. Visualization continuous features-
-- Skewed(Skewed is the one, where, 2 halves of the visualisation does not appears as mirror images of each other), or
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/visualise_contin_1.PNG)
+
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/visualise_contin_2.PNG)
+
+- Skewed(Skewed is the one, where, 2 halves of the visualisation does not appears as mirror images of each other), (or)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/Skewed_distr_cont_1.PNG)
+
 - Non-Skewed( Non-skewed or Symmetric features is one, where 2 halves appear as mirror images of each other.) 
+
 10. Transforming features-
 - Skewed Continuous features-(via Log Tranformation)
+
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/Skewed_distr_cont_2.PNG)
+
 - Continuous Features- (Normalization)
+
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/Normalize_features.PNG)
+
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/features_after_normalize.PNG)
+
 - Categorical Features- (One Hot Encoding)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/one_hot_categ.PNG)
+
 11. Visualisation- Correlation Matrix
+
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/corelation_cont.PNG)
+
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/corelation_all.PNG)
+
 12. Data Modeling-
 -   Split Dataset 'census' into 'train' and 'Validation'
 -   Base Model Metric Calculation
@@ -58,4 +98,6 @@ The modified census dataset consists of approximately 42,000 data points, with e
 13. Test dataset-
 -   Data Preprocessing and EDA steps, same as 'census'- training dataset
 -   Predict model, based upon best optimized model
--   Save and Uploaded Dataset on Kaggle.
+-   Save models and Upload results from best optimized model on Kaggle.
+
+14. Results-
