@@ -116,3 +116,11 @@ Correlation Matrix of All Features in dataset-
 -   Save models and Upload results from best optimized model on Kaggle.
 
 **11.Results**
+
+#     Best model:  0.93687
+
+#     average between top 2 models: 0.93687
+
+#     average between top 3 models: 0.93160
+
+#     average between all models: 0.93684
