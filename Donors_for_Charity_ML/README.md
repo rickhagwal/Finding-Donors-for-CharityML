@@ -4,7 +4,7 @@
 
 ### Data
 
-The modified census dataset consists of approximately 42,000 data points, with each datapoint having 13 features. This dataset is a modified version of the dataset published in the paper *"Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid",* by Ron Kohavi. You may find this paper [online](https://www.aaai.org/Papers/KDD/1996/KDD96-033.pdf), with the original dataset hosted on [UCI](https://archive.ics.uci.edu/ml/datasets/Census+Income).
+The modified census dataset consists of approximately 42,000 data points, with each datapoint having 13 features. This dataset is a modified version of the dataset published in the paper *"Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid",* by Ron Kohavi. Find the related paper [online](https://www.aaai.org/Papers/KDD/1996/KDD96-033.pdf), with the original dataset hosted on [UCI](https://archive.ics.uci.edu/ml/datasets/Census+Income).
 
 **Features**
 - `age`: Age
@@ -105,6 +105,7 @@ Correlation Matrix of All Features in dataset-
 -   Hyperparameter Tuning for Logistic Regression
 -   Look for reduced dataset(with most important features) against full dataset
 -   Comparison of all combination of models to choose the best optimized model(Top3 models- AdaBoost, XGBoost and Gradient Boosting).
+
 **10. Test dataset**
 -   Handle missing Values in test dataset
       - Continuous features with gaussian disctribution(Mean values from train dataset)
