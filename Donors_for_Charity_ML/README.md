@@ -25,30 +25,30 @@ The modified census dataset consists of approximately 42,000 data points, with e
 - `income`: Income Class (<=50K, >50K)
 
 ### Steps taken:
-**1. Importing datasets( 'census.csv' and 'test_censis.csv')**
+**1. Importing datasets( 'census.csv' and 'test_census.csv')**
 ![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/data.PNG)
 
 ![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/test.PNG)
 
-2. Explore datasets.
+**2. Explore datasets**
 ![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/data_info.PNG)
 
 ![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/train_info.PNG)
 
-3. Explore target variable.
+**3. Explore target variable**
 ![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/Data_exploration.PNG)
 
-4. Split dataframe into features and target variable(income)
+**4. Split dataframe into features and target variable(income)**
 ![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/Split_data_features.PNG)
 
 ![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/split_data_income.PNG)
 
-5. Explore continuous(skewed and non-skewed) and categorical features in dataset.
+**5. Explore continuous(skewed and non-skewed) and categorical features in dataset**
 ![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/Unique_val_categorical.PNG)
 
 ![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/cont_categ_features.PNG)
 
-6. Visualization continuous features-
+**6. Visualization continuous features**
 ![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/visualise_contin_1.PNG)
 
 ![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/visualise_contin_2.PNG)
@@ -58,7 +58,7 @@ The modified census dataset consists of approximately 42,000 data points, with e
 
 - Non-Skewed( Non-skewed or Symmetric features is one, where 2 halves appear as mirror images of each other.) 
 
-10. Transforming features-
+**7.Transforming features-**
 - Skewed Continuous features-(via Log Tranformation)
 
 ![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/Skewed_distr_cont_2.PNG)
@@ -72,7 +72,7 @@ The modified census dataset consists of approximately 42,000 data points, with e
 - Categorical Features- (One Hot Encoding)
 ![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/one_hot_categ.PNG)
 
-11. Visualisation- Correlation Matrix
+**8. Visualisation- Correlation Matrix**
 
 Correlation Matrix of Continuous Features in dataset-
 
@@ -87,7 +87,7 @@ Correlation Matrix of All Features in dataset-
 - In the income column, it can be easily observed that except for the few features such as- age, education_num, marital-status-married,
  all the other features don't have that much higher (of >0.2 ) correlation with income column.
 
-12. Data Modeling-
+**9. Data Modeling**
 -   Split Dataset 'census' into 'train' and 'Validation'
 -   Base Model Metric Calculation
 -   Apply machine learning models- 
@@ -105,7 +105,7 @@ Correlation Matrix of All Features in dataset-
 -   Hyperparameter Tuning for Logistic Regression
 -   Look for reduced dataset(with most important features) against full dataset
 -   Comparison of all combination of models to choose the best optimized model(Top3 models- AdaBoost, XGBoost and Gradient Boosting).
-13. Test dataset-
+**10. Test dataset**
 -   Handle missing Values in test dataset
       - Continuous features with gaussian disctribution(Mean values from train dataset)
      -  Continuous features with skewed distribution (Median values from train dataset)
@@ -114,4 +114,4 @@ Correlation Matrix of All Features in dataset-
 -   Predict model, based upon best optimized model
 -   Save models and Upload results from best optimized model on Kaggle.
 
-14. Results-
+**11.Results**
