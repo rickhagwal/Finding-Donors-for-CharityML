@@ -121,3 +121,8 @@ Correlation Matrix of All Features in dataset-
 ![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/result-2.PNG)
 
 #     Best model:  0.9325 (score for 3 models)
+
+Code in Python File-
+
+https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/Charity_ML_competition.ipynb
+
