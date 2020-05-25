@@ -120,10 +120,4 @@ Correlation Matrix of All Features in dataset-
 ![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/result-1.PNG)
 ![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/result-2.PNG)
 
-#     Best model:  0.93687
-
-#     average between top 2 models: 0.93687
-
-#     average between top 3 models: 0.93160
-
-#     average between all models: 0.93684
+#     Best model:  0.9325 (score for 3 models)
