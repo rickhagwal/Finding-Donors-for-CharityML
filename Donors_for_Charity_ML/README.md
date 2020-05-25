@@ -23,3 +23,39 @@ The modified census dataset consists of approximately 42,000 data points, with e
 
 **Target Variable**
 - `income`: Income Class (<=50K, >50K)
+
+### Steps taken:
+1. Importing datasets( 'census.csv' and 'test_censis.csv')
+2. Explore datasets.
+3. Explore target variable.
+4. Split dataframe into features and target variable(income)
+5. Explore continuous(skewed and non-skewed) and categorical features in dataset.
+6. Visualization continuous features-
+- Skewed(Skewed is the one, where, 2 halves of the visualisation does not appears as mirror images of each other), or
+- Non-Skewed( Non-skewed or Symmetric features is one, where 2 halves appear as mirror images of each other.) 
+10. Transforming features-
+- Skewed Continuous features-(via Log Tranformation)
+- Continuous Features- (Normalization)
+- Categorical Features- (One Hot Encoding)
+11. Visualisation- Correlation Matrix
+12. Data Modeling-
+-   Split Dataset 'census' into 'train' and 'Validation'
+-   Base Model Metric Calculation
+-   Apply machine learning models- 
+      Random Forest Classifier
+      Gradient Boosting Classifier
+      AdaBoost Classifier
+      Logistic Regression
+      XGBoost Classifier
+-   Comparison of models based upon ROC-AUC Score Metrics-
+-   Hyperparameter Tuning for AdaBoost Classifier
+-   Hyperparameter Tuning for Gradient Boosting Classifier
+-   Hyperparameter Tuning for XGBoost Classifier
+-   Hyperparameter Tuning for Random Forest Classifier
+-   Hyperparameter Tuning for Logistic Regression
+-   Look for reduced dataset(with most important features) against full dataset
+-   Comparison of all combination of models to choose the best optimized model(Top3 models- AdaBoost, XGBoost and Gradient Boosting).
+13. Test dataset-
+-   Data Preprocessing and EDA steps, same as 'census'- training dataset
+-   Predict model, based upon best optimized model
+-   Save and Uploaded Dataset on Kaggle.
