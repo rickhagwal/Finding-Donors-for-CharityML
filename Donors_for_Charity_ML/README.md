@@ -28,61 +28,61 @@ The modified census dataset consists of approximately 42,000 data points, with e
 **1. Importing datasets( 'census.csv' and 'test_census.csv')**
 ![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/data.PNG)
 
-![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/test.PNG)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/test.PNG)
 
 **2. Explore datasets**
-![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/data_info.PNG)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/data_info.PNG)
 
-![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/train_info.PNG)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/train_info.PNG)
 
 **3. Explore target variable**
-![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/Data_exploration.PNG)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/Data_exploration.PNG)
 
 **4. Split dataframe into features and target variable(income)**
-![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/Split_data_features.PNG)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/Split_data_features.PNG)
 
-![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/split_data_income.PNG)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/split_data_income.PNG)
 
 **5. Explore continuous(skewed and non-skewed) and categorical features in dataset**
-![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/Unique_val_categorical.PNG)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/Unique_val_categorical.PNG)
 
-![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/cont_categ_features.PNG)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/cont_categ_features.PNG)
 
 **6. Visualization continuous features**
-![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/visualise_contin_1.PNG)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/visualise_contin_1.PNG)
 
-![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/visualise_contin_2.PNG)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/visualise_contin_2.PNG)
 
 - Skewed(Skewed is the one, where, 2 halves of the visualisation does not appears as mirror images of each other), (or)
-![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/Skewed_distr_cont_1.PNG)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/Skewed_distr_cont_1.PNG)
 
 - Non-Skewed( Non-skewed or Symmetric features is one, where 2 halves appear as mirror images of each other.) 
 
 **7.Transforming features-**
 - Skewed Continuous features-(via Log Tranformation)
 
-![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/Skewed_distr_cont_2.PNG)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/Skewed_distr_cont_2.PNG)
 
 - Continuous Features- (Normalization)
 
-![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/Normalize_features.PNG)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/Normalize_features.PNG)
 
-![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/features_after_normalize.PNG)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/features_after_normalize.PNG)
 
 - Categorical Features- (One Hot Encoding)
-![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/one_hot_categ.PNG)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/one_hot_categ.PNG)
 
 **8. Visualisation- Correlation Matrix**
 
 Correlation Matrix of Continuous Features in dataset-
 
-![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/corelation_cont.PNG)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/corelation_cont.PNG)
 
 -It can be seen from the below data of continuous features, that, there are ouliers present in them, but, won't affect much on non-linear models.
 
 Correlation Matrix of All Features in dataset-
 
-![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/corelation_all.PNG)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/corelation_all.PNG)
 - It can be seen from the below correlation graph that, there is not much correlation between the features, except for the few outliers.
 - In the income column, it can be easily observed that except for the few features such as- age, education_num, marital-status-married,
  all the other features don't have that much higher (of >0.2 ) correlation with income column.
@@ -97,7 +97,7 @@ Correlation Matrix of All Features in dataset-
       Logistic Regression
       XGBoost Classifier
 -   Comparison of models based upon ROC-AUC Score Metrics-
-![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/metrics_calc_All_models.PNG)
+![alt text](https://github.com/rickhagwal/KaggleCompetitions/blob/master/Donors_for_Charity_ML/images/metrics_calc_All_models.PNG)
 -   Hyperparameter Tuning for AdaBoost Classifier
 -   Hyperparameter Tuning for Gradient Boosting Classifier
 -   Hyperparameter Tuning for XGBoost Classifier
